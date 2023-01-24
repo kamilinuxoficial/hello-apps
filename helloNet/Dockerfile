@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
-LABEL saludo=holaa
+LABEL saludo=hola
 WORKDIR /src
 COPY src/*.csproj .
 RUN dotnet restore
