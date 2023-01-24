@@ -5,7 +5,7 @@ docker run -it mcr.microsoft.com/dotnet/sdk:6.0
 #generamos la plantilla
 dotnet new webapp -n myWebApp -o src --no-https
 ```
-2)COPIAMOS LA PLANTILLA AL LOCAL
+2) Copiamos la plantilla a local
 ``` code
 docker cp <container_id>:/tmp/src .
 ```
