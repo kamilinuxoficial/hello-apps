@@ -11,7 +11,7 @@
    ```bash
    git clone https://github.com/kamilinuxoficial/hello-apps 
    cd hello-apps/php-helloworld
-  ```
+   ```
 2. Construye la imagen del contenedor utilizando el siguiente comando:
 ```bash
 docker build -t nombre-de-la-imagen .
