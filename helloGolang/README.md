@@ -22,7 +22,7 @@
 3. Una vez que se haya construido la imagen, puedes ejecutar la aplicación dentro de un contenedor utilizando el siguiente comando:
 
    ```bash
-   docker run -p 80:80 nombre-de-la-imagen
+   docker run nombre-de-la-imagen
    ```
 4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente [URL](http://localhost).
 
@@ -36,6 +36,6 @@
 Tambien puedes dejar el contenedor en segundo plano (deattach)
 
   ```bash
-   docker run -d -p 80:80 nombre-de-la-imagen
+   docker run -d nombre-de-la-imagen
    ```
 
