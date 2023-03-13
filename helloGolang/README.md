@@ -34,7 +34,8 @@
 ## BACKGROUND MODE
 
 Tambien puedes dejar el contenedor en segundo plano (deattach)
-Cuando acaba el programa, acaba
+
+Cuando acaba el programa de Go, el contenedor muere. por lo tanto el siguiente comando no funcionaría:
 
   ```bash
    docker run -d nombre-de-la-imagen
