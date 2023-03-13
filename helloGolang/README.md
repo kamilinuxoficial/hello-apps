@@ -34,6 +34,7 @@
 ## BACKGROUND MODE
 
 Tambien puedes dejar el contenedor en segundo plano (deattach)
+Cuando acaba el programa, acaba
 
   ```bash
    docker run -d nombre-de-la-imagen
