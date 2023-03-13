@@ -1,6 +1,6 @@
 # REQUIREMENTS
 
-- Docker instalado en tu sistema operativo. Si aún no tienes Docker instalado, puedes ver como descargarlo e instalarlo en este video [GitHub Pages](https://youtu.be/YpBoqXK_3wE).
+- Docker instalado en tu sistema operativo. Si aún no tienes Docker instalado, puedes ver como descargarlo e instalarlo en este [video](https://youtu.be/YpBoqXK_3wE).
 
 - Git
 
@@ -21,7 +21,7 @@
    ```bash
    docker run -p 80:80 nombre-de-la-imagen
    ```
-4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente URL: [GitHub Pages] (http://localhost)
+4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente [URL]: (http://localhost)
 
 
 Eso es todo lo que necesitas para ejecutar la aplicación utilizando Docker. Si necesitas detener la ejecución de la aplicación, puedes presionar CTRL+C en la terminal donde está ejecutándose el contenedor.
