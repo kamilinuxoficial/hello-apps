@@ -24,7 +24,7 @@
 4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente [URL](http://localhost).
 
 
- Eso es todo lo que necesitas para ejecutar la aplicación utilizando Docker. Si necesitas detener la ejecución de la aplicación, puedes presionar CTRL+C en la terminal donde está ejecutándose el contenedor.
+ Eso es todo lo que necesitas para ejecutar la aplicación utilizando Docker. Si necesitas detener la ejecución de la aplicación, puedes presionar CTRL+C en la terminal donde está ejecutándose el contenedor. Todo lo que tengas en el contenedor como configuraciones, logs... se perdederán si se apaga el contenedor.
 
 ## BACKGROUND MODE
 
