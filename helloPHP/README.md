@@ -1,50 +1,38 @@
 # REQUIREMENTS
 
-- Docker
+- Docker instalado en tu sistema operativo. Si aún no tienes Docker instalado, puedes ver como descargarlo e instalarlo en este [video](https://youtu.be/YpBoqXK_3wE).
 
 - Git
 
 # STEPS
 
-1. Clona el repositorio en tu sistema:
+1. Abre una terminal y clona este repositorio en tu sistema:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-proyecto.gitAplicación de Ejemplo con Docker
-Este es un ejemplo de una aplicación simple que utiliza Docker para construir y ejecutar una imagen de contenedor de la aplicación.
-```
-Requisitos
-Docker instalado en tu sistema operativo. Si aún no tienes Docker instalado, puedes descargarlo desde https://www.docker.com/get-started.
+   git clone https://github.com/kamilinuxoficial/hello-apps 
+   cd hello-apps/php-helloworld
+   ```
+2. Construye la imagen del contenedor utilizando el siguiente comando:
+   ```bash
+   docker build -t nombre-de-la-imagen .
+   ```
 
-Para ejecutar esta aplicación, sigue los siguientes pasos:
+3. Una vez que se haya construido la imagen, puedes ejecutar la aplicación dentro de un contenedor utilizando el siguiente comando:
+   ```bash
+   docker run -p 80:80 nombre-de-la-imagen
+   ```
+4. Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente [URL](http://localhost).
 
-Abre una terminal y clona este repositorio en tu sistema:
-```bash
-Copy code
-git clone https://github.com/tu-usuario/tu-repo.git
-Cambia al directorio raíz del proyecto:
-```
-```bash
-bash
-Copy code
-cd tu-repo
-Construye la imagen del contenedor utilizando el siguiente comando:
 
-```
-```bash
-Copy code
-docker build -t nombre-de-la-imagen .
-Una vez que se haya construido la imagen, puedes ejecutar la aplicación dentro de un contenedor utilizando el siguiente comando:
+ Eso es todo lo que necesitas para ejecutar la aplicación utilizando Docker. Si necesitas detener la ejecución de la aplicación, puedes presionar CTRL+C en la terminal donde está ejecutándose el contenedor. 
+ ##### AVISO
+ Todo lo que tengas en el contenedor como configuraciones, logs... se perdederán si se apaga el contenedor.
 
-```
-```bash
-Copy code
-docker run -p 8000:8000 nombre-de-la-imagen
-Ahora puedes acceder a la aplicación a través de tu navegador web en la siguiente URL:
+## BACKGROUND MODE
 
-```
-```javascript
-http://localhost:8000
-```
-Eso es todo lo que necesitas para ejecutar la aplicación utilizando Docker. Si necesitas detener la ejecución de la aplicación, puedes presionar CTRL+C en la terminal donde está ejecutándose el contenedor.
+Tambien puedes dejar el contenedor en segundo plano (deattach)
 
-¡Gracias por utilizar nuestra aplicación! Si tienes alguna pregunta o problema al ejecutar la aplicación, no dudes en contactarnos.
+  ```bash
+   docker run -d -p 80:80 nombre-de-la-imagen
+   ```
+
