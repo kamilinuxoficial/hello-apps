@@ -1,9 +1,20 @@
-Aplicación de Ejemplo con Docker
-Este es un ejemplo de una aplicación simple que utiliza Docker para construir y ejecutar una imagen de contenedor de la aplicación.
+# REQUIREMENTS
 
+- Docker
+
+- Git
+
+# STEPS
+
+1. Clona el repositorio en tu sistema:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-proyecto.gitAplicación de Ejemplo con Docker
+Este es un ejemplo de una aplicación simple que utiliza Docker para construir y ejecutar una imagen de contenedor de la aplicación.
+```
 Requisitos
 Docker instalado en tu sistema operativo. Si aún no tienes Docker instalado, puedes descargarlo desde https://www.docker.com/get-started.
-Instrucciones
+
 Para ejecutar esta aplicación, sigue los siguientes pasos:
 
 Abre una terminal y clona este repositorio en tu sistema:
