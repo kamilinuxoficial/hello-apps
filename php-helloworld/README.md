@@ -13,11 +13,11 @@
    cd hello-apps/php-helloworld
   ```
 2. Construye la imagen del contenedor utilizando el siguiente comando:
-   ```bash
-   docker build -t nombre-de-la-imagen .
-   ```
+```bash
+docker build -t nombre-de-la-imagen .
+```
+
 3. Una vez que se haya construido la imagen, puedes ejecutar la aplicación dentro de un contenedor utilizando el siguiente comando:
-   
 ```bash
 
 docker run -p 8000:8000 nombre-de-la-imagen
